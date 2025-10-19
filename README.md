@@ -3,15 +3,17 @@
 ### Overview of the project
 
 To Implement an application in Java which provides a REST API with endpoints for searching, creating, deleting and running “task” objects. Task objects represent shell commands that can be run in a kubernetes pod. Each “task” object should contain the following properties:
-● id (task ID, String)
-● name (task name, String)
-● owner (task owner, String)
-● command (shell command to be run, String)
-● taskExecutions (List<TaskExecuton>)
+
+* id (task ID, String)
+* name (task name, String)
+* owner (task owner, String)
+* command (shell command to be run, String)
+* taskExecutions (List<TaskExecuton>)
+  
 TaskExecution:
-● startTime (execution start date/time, Date)
-● endTime (execution end date/time, Date)
-● output (command output, String)
+* startTime (execution start date/time, Date)
+* endTime (execution end date/time, Date)
+* output (command output, String)
 
 ### Technologies Used 
 Backend: Java, Spring Boot, Spring Web, Spring Data MongoDB
@@ -51,9 +53,10 @@ kaiburr-internship/
 
 ### Screenshots
 <img width="1337" height="370" alt="image" src="https://github.com/user-attachments/assets/5444721e-26f1-42b7-a7c6-8857a20f9e1e" />
-<img width="359" height="586" alt="image" src="https://github.com/user-attachments/assets/536fcb40-7561-4971-8ee0-44f7461ae282" />
+<img width="359" height="586" alt="image" src="https://github.com/user-attachments/assets/ee98f266-348e-47a4-9863-cfae6f606e70" />
 
+⚠️ Note: This task is partially implemented. Some features (like auto-refresh after adding tasks) may not work as expected.
 
-
+And this is my Task 5 github profile:https://github.com/Anushe2004/Kaiburr-task-5
 
 
