@@ -1,0 +1,7 @@
+com\example\kaiburr_task1\model\TaskExecution.class
+com\example\kaiburr_task1\model\TaskExecution$TaskExecutionBuilder.class
+com\example\kaiburr_task1\repository\TaskRepository.class
+com\example\kaiburr_task1\service\TaskService.class
+com\example\kaiburr_task1\controller\TaskController.class
+com\example\kaiburr_task1\model\Task.class
+com\kaiburr\taskapi\TaskApplication.class
