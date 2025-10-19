@@ -53,7 +53,6 @@ kaiburr-internship/
 
 ### Screenshots
 <img width="1337" height="370" alt="image" src="https://github.com/user-attachments/assets/5444721e-26f1-42b7-a7c6-8857a20f9e1e" />
-<img width="359" height="586" alt="image" src="https://github.com/user-attachments/assets/ee98f266-348e-47a4-9863-cfae6f606e70" />
 
 ⚠️ Note: This task is partially implemented. Some features (like auto-refresh after adding tasks) may not work as expected.
 
