@@ -18,7 +18,7 @@ public class TaskController {
         this.service = service;
     }
 
-    // ✅ GET all tasks or by ID
+    
     @GetMapping
     public ResponseEntity<?> getTasks(@RequestParam(required = false) String id) {
         if (id == null) {
@@ -30,7 +30,7 @@ public class TaskController {
                    .orElse(ResponseEntity.notFound().build());
     }
 
-    // ✅ PUT - create or update a task
+    
     @PutMapping
     public ResponseEntity<?> createOrUpdateTask(@RequestBody Task task) {
         try {
@@ -43,14 +43,14 @@ public class TaskController {
         }
     }
 
-    // ✅ DELETE - remove a task by ID
+    
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteTask(@PathVariable String id) {
         service.deleteTask(id);
         return ResponseEntity.noContent().build();
     }
 
-    // ✅ GET - search tasks by name (case-insensitive)
+    
     @GetMapping("/search")
     public ResponseEntity<?> searchTasks(@RequestParam String name) {
         List<Task> tasks = service.findByName(name);
@@ -60,7 +60,7 @@ public class TaskController {
         return ResponseEntity.ok(tasks);
     }
 
-    // ✅ PUT - execute a command for the given task ID
+    
     @PutMapping("/{id}/execute")
     public ResponseEntity<?> executeTask(@PathVariable String id) {
         try {
@@ -73,3 +73,4 @@ public class TaskController {
         }
     }
 }
+
